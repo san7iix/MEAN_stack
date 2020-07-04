@@ -7,7 +7,7 @@
     "dev": "cross-env NODE_ENV=development nodemon server/index.js",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "client/ng build --output-path dist"
+    "postinstall": "cross-env NODE_ENV=production client/ng build --output-path dist"
   },
   "keywords": [],
   "author": "",
