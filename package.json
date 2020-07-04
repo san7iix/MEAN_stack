@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js",
     "start": "cross-env NODE_ENV=production node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd client && ng build --output-path dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -24,19 +23,6 @@
     "mongoose": "^5.9.20",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-	"@angular/cli": "1.0.0-beta.33.1",
-    "@angular/common": "^2.4.0",
-    "@angular/compiler": "^2.4.0",
-    "@angular/compiler-cli": "^2.4.0",
-    "@angular/core": "^2.4.0",
-    "@angular/forms": "^2.4.0",
-    "@angular/http": "^2.4.0",
-    "@angular/platform-browser": "^2.4.0",
-    "@angular/platform-browser-dynamic": "^2.4.0",
-    "@angular/router": "^3.4.0",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.7.6"
+    "passport-local": "^1.0.0"
   }
 }
